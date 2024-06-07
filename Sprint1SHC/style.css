@@ -1,0 +1,19 @@
+header{
+    background-color: black;
+}
+
+.carousel-item{
+    height:60vh;
+}
+
+.carousel-item img{
+   height: 100%;
+   object-fit: cover;
+   filter: brightness(.9);
+}
+
+.carousel-item a{
+    font-size:110px;
+    text-shadow: 4px 4px 4px black;
+
+}
