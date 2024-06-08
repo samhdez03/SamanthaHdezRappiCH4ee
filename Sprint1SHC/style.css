@@ -2,18 +2,23 @@ header{
     background-color: black;
 }
 
-.carousel-item{
-    height:60vh;
+.carousel-item-size {
+    height:30vh;
 }
 
-.carousel-item img{
+.carousel-item-size img{
    height: 100%;
    object-fit: cover;
    filter: brightness(.9);
 }
 
-.carousel-item a{
-    font-size:110px;
+.carousel-item-size a{
+    font-size:60px;
     text-shadow: 4px 4px 4px black;
 
+}
+
+footer{
+    background-color: black;
+    color: antiquewhite;
 }
