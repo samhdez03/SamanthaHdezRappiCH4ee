@@ -2,6 +2,12 @@ header{
     background-color: rgb(44, 41, 41);
 }
 
+.navbar-brand img{
+    width:70%; 
+    height:auto
+
+}
+
 .carousel-item-size {
     height:30vh;
 }
@@ -25,14 +31,20 @@ header{
 
 .empty{  
     height:2rem; 
-    background-color:yelllow; 
     } 
 
 .cardDetail{
     background-color: rgb(44, 41, 41);
     color: whitesmoke;
     }
+
 footer{
     background-color: rgb(44, 41, 41);
     color: antiquewhite;
+}
+
+.icon-link img{
+    width:70%; 
+    height:auto
+
 }
