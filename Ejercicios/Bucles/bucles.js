@@ -208,7 +208,7 @@ if(eleccion1=='piedra'&&eleccion2=='tijeras'||eleccion1==='papel'&&eleccion2==='
 let numAsteriscos=5
 let numEspacios=numAsteriscos-1
 let espacios=' '
-
+console.log('Mi interpretacion de triangulo')
 for(i=0;i<numAsteriscos;i++){
     espacios=''
     for(j=0; j<numEspacios; j++){
@@ -221,6 +221,19 @@ for(i=0;i<numAsteriscos;i++){
     console.log(espacios)
     numEspacios--
    }
+   console.log('Triangulo como lo hizo el profe Edisson')
+   for(i=0;i<numAsteriscos;i++){
+    espacios=''
+    for (k = 0; k <= i; k++) {      
+        espacios = espacios+' *'
+    }
+    for(j=0; j<numEspacios; j++){
+        espacios=espacios + ' '
+    }
+
+    console.log(espacios)
+    numEspacios--
+   }
 
 /* 15. Realizar un programa que imprima por consola un triangulo de 5 asteriscos de lado pero invertido. */
 
@@ -228,6 +241,7 @@ let numAsteriscos2=5
 let numEspacios2=0
 let espacios2=''
 
+console.log('Mi interpretacion de triangulo invertido')
 for(i=0;i<numAsteriscos2;i++){
     for (k = 0; k <= i; k++) { 
         espacios2=' * * * * * '     
@@ -240,6 +254,20 @@ for(i=0;i<numAsteriscos2;i++){
 
     console.log(espacios2)
     numEspacios2++
+   }
+console.log('Triangulo invertido como lo hizo el profe Edisson')
+numEspacios=numAsteriscos-1
+for(i=0;i<numAsteriscos;i++){
+    espacios=' '
+    for(j=0; j<numEspacios; j++){
+        espacios=espacios + '  '
+    }
+    for (k = 0; k <= i; k++) {      
+        espacios = espacios+'* '
+      }
+
+    console.log(espacios)
+    numEspacios--
    }
 
 /* 16. Dado un array de 10 numeros desordenados, realizar un programa que imprima por pantalla el array ordenado. (NO USAR SORT, solo ciclos FOR) */
